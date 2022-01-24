@@ -76,7 +76,7 @@ extern u32 g_PSPModel;
 enum
 {
 	// This may be adjusted by remaster games.
-	RAM_NORMAL_SIZE = 0x02000000,
+	RAM_NORMAL_SIZE = 0x02000000 * 4,
 	// Used if the PSP model is PSP-2000 (Slim).
 	RAM_DOUBLE_SIZE = RAM_NORMAL_SIZE * 2,
 
